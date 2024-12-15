@@ -1,0 +1,108 @@
+/* General Body Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('/bg-img.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* Container for Login and Response Pages */
+.login-container, .response-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px 40px;
+  text-align: center;
+  color: #fff;
+  max-width: 350px;
+  width: 100%;
+}
+
+/* Header Styling */
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-field {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input-field input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 100%;
+  padding: 5px;
+}
+
+.input-field input::placeholder {
+  color: #ddd;
+}
+
+.input-field i {
+  margin-right: 10px;
+}
+
+/* Options and Links */
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 10px 0 20px;
+}
+
+.options a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btn {
+  background-color: #4d44ad;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #2d9135;
+}
+
+/* Register Section */
+.register {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.register a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
